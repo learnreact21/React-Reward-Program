@@ -1,3 +1,5 @@
+
+import CustomerCard from "./CustomerCard";
 const cardWidth = {
     width: "18rem"
 }
@@ -13,12 +15,7 @@ console.log(nowDate.toLocaleDateString());
                         return <div className="card p-3 m-2" style={cardWidth}>
                             <h5 className="card-title">{ele.firstName},{ele.lastName} </h5>
                             <div className="card-body">
-                                <p>Reward Point(s) Earned: {ele.rewardPoints}</p>
-                                {/* <p>Total Ampunt Spent: {ele.transactions.purchase.reduce(
-  (previousValue, currentValue) => previousValue + currentValue,
-  0
-)}
-</p> */}
+                               <CustomerCard transactions={ele.transactions} key={ele.id} />
                             </div>
                         </div>
                     })}

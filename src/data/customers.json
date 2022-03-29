@@ -7,7 +7,7 @@
            
             {
                 "date": "01/01/2022",
-                "totalAmt": 130
+                "purchase": 130
               },
               {
                 "date": "02/03/2022",
@@ -29,7 +29,7 @@
            
             {
                 "date": "01/02/2022",
-                "totalAmt": 189
+                "purchase": 189
               },
               {
                 "date": "02/23/2022",
@@ -51,15 +51,15 @@
            
             {
                 "date": "01/01/2022",
-                "totalAmt": 130
+                "purchase": 120
               },
               {
                 "date": "01/03/2022",
-                "purchase": 185
+                "purchase": 220
               },
               {
                 "date": "01/15/2022",
-                "purchase": 59
+                "purchase": 0
               }
             ],
         "rewardPoints": 0
@@ -73,7 +73,7 @@
            
             {
                 "date": "01/01/2022",
-                "totalAmt": 130
+                "purchase": 130
               },
               {
                 "date": "01/03/2022",
