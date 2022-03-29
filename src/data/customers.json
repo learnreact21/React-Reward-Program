@@ -3,11 +3,16 @@
         "id": "001",
         "firstName": "John",
         "lastName": "Doe",
+        "image": "./images/img_avatar.png",
         "transactions" : [
            
             {
                 "date": "01/01/2022",
                 "purchase": 130
+              },
+              {
+                "date": "01/15/2022",
+                "purchase": 225
               },
               {
                 "date": "02/03/2022",
@@ -25,6 +30,8 @@
         "id": "002",
         "firstName": "Mary",
         "lastName": "Nice",
+        "image": "./images/img_avatar2.png",
+
         "transactions" : [
            
             {
@@ -47,6 +54,7 @@
         "id": "003",
         "firstName": "Freddy",
         "lastName": "Joans",
+        "image": "./images/img_avatar.png",
         "transactions" : [
            
             {
@@ -69,6 +77,7 @@
         "id": "004",
         "firstName": "Alice",
         "lastName": "Marie",
+        "image": "./images/img_avatar2.png",
         "transactions" : [
            
             {

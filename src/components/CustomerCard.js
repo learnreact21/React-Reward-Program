@@ -21,23 +21,21 @@ export default function CustomerCard({ transactions }) {
         let totalAmount = 0, Rpoints = 0;
         const sumTotal = transactions.map(ele => {
             totalAmount = ele.purchase + totalAmount;
-            console.log(totalAmount);
             monthNum = new Date(ele.date).getMonth();
-            console.log("monthNum", monthNames[monthNum]);
-
+            console.log("totalAmount", totalAmount, "per month", monthNum);
         });
 
-        console.log(sumTotal);
-        Rpoints = calcPoints(totalAmount)
-        console.log("points", Rpoints);
+        Rpoints = calcPoints(totalAmount);
 
-        setTotals({ points: Rpoints, amtSpent: totalAmount, month: monthNames[monthNum] })
+        setTotals({ points: Rpoints, amtSpent: totalAmount, month: monthNames[monthNum] });
+        console.log(totals);
+
     }, [transactions])
     return (
         <>
-            <h5>Monthly Data</h5>
+            <h5>{totals.month} Data</h5>
             <ol>
-                <li>Money Spent ${totals.amtSpent} for the month of {totals.month}</li>
+                <li>Money Spent ${totals.amtSpent} for the month.</li>
                 <li>Reward Point(s) Earned: {totals.points}</li>
             </ol>
         </>
