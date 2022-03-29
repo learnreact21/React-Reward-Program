@@ -1,5 +1,5 @@
 
-import TotalCard from "./TotalCard";
+import CustomerCard from "./CustomerCard";
 const cardWidth = {
     width: "18rem"
 }
@@ -15,7 +15,7 @@ console.log(nowDate.toLocaleDateString());
                         return <div className="card p-3 m-2" style={cardWidth}>
                             <h5 className="card-title">{ele.firstName},{ele.lastName} </h5>
                             <div className="card-body">
-                               <TotalCard transactions={ele.transactions} />
+                               <CustomerCard transactions={ele.transactions} key={ele.id} />
                             </div>
                         </div>
                     })}
