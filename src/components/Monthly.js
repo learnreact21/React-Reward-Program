@@ -8,9 +8,9 @@ export default function MonthlyStatement({ filteredData }) {
     ];
     let monthNum = null;
     const monthlyRecords = () =>{ 
-        const sum = filteredData.reduce((total, purchase) => total + purchase); 
-        console.log("MR", sum);
-        return sum ; 
+            filteredData.map((item, index) => {
+                console.log(item); 
+            })
     }
     const calcPoints = (price) => {
 
@@ -23,6 +23,11 @@ export default function MonthlyStatement({ filteredData }) {
         }
         return 0;
     }
+
+    useEffect( ()=>{
+        console.log("calling monthly data "); 
+        monthlyRecords();
+    }, [filteredData]); 
     return (
         <>
        {filteredData.length > 0 ? (
@@ -30,7 +35,7 @@ export default function MonthlyStatement({ filteredData }) {
                     return <div key={index}>
                         <h5 className="text-danger">Transaction Date: {item.date}</h5>
                         <p>Money Spent ${item.purchase} for the month.</p>
-                        <p>Reward Point(s) Earned: {monthlyRecords()}</p>
+                        <p>Reward Point(s) Earned: </p>
                     </div>
                 })
                 
