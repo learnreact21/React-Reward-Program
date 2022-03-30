@@ -1,99 +1,94 @@
 [
-    {
-        "id": "001",
-        "firstName": "John",
-        "lastName": "Doe",
-        "image": "./images/img_avatar.png",
-        "transactions" : [
-           
-            {
-                "date": "01/01/2022",
-                "purchase": 130
-              },
-              {
-                "date": "01/15/2022",
-                "purchase": 225
-              },
-              {
-                "date": "02/03/2022",
-                "purchase": 185
-              },
-              {
-                "date": "03/15/2022",
-                "purchase": 59
-              }
-            ],
-        "rewardPoints": 0
-       
-    },
-    {
-        "id": "002",
-        "firstName": "Mary",
-        "lastName": "Nice",
-        "image": "./images/img_avatar2.png",
-
-        "transactions" : [
-           
-            {
-                "date": "01/02/2022",
-                "purchase": 189
-              },
-              {
-                "date": "02/23/2022",
-                "purchase": 156
-              },
-              {
-                "date": "04/15/2022",
-                "purchase": 59
-              }
-            ],
-        "rewardPoints": 0
-       
-    },
-    {
-        "id": "003",
-        "firstName": "Freddy",
-        "lastName": "Joans",
-        "image": "./images/img_avatar.png",
-        "transactions" : [
-           
-            {
-                "date": "01/01/2022",
-                "purchase": 120
-              },
-              {
-                "date": "01/03/2022",
-                "purchase": 220
-              },
-              {
-                "date": "01/15/2022",
-                "purchase": 0
-              }
-            ],
-        "rewardPoints": 0
-       
-    },
-    {
-        "id": "004",
-        "firstName": "Alice",
-        "lastName": "Marie",
-        "image": "./images/img_avatar2.png",
-        "transactions" : [
-           
-            {
-                "date": "01/01/2022",
-                "purchase": 130
-              },
-              {
-                "date": "01/03/2022",
-                "purchase": 185
-              },
-              {
-                "date": "01/15/2022",
-                "purchase": 59
-              }
-            ],
-        "rewardPoints": 0
-       
-    }
+  {
+    "id": "001",
+    "firstName": "John",
+    "lastName": "Doe",
+    "image": "./images/img_avatar.png",
+    "transactions": [
+      {
+        "date": "12/25/2022",
+        "purchase": 130
+      },
+      {
+        "date": "01/01/2022",
+        "purchase": 130
+      },
+      {
+        "date": "01/15/2022",
+        "purchase": 225
+      },
+      {
+        "date": "02/03/2022",
+        "purchase": 185
+      },
+      {
+        "date": "03/15/2022",
+        "purchase": 59
+      }
+    ]
+   
+  },
+  {
+    "id": "002",
+    "firstName": "Mary",
+    "lastName": "Nice",
+    "image": "./images/img_avatar2.png",
+    "transactions": [
+      {
+        "date": "01/02/2022",
+        "purchase": 189
+      },
+      {
+        "date": "02/23/2022",
+        "purchase": 156
+      },
+      {
+        "date": "04/15/2022",
+        "purchase": 59
+      }
+    ]
+   
+  },
+  {
+    "id": "003",
+    "firstName": "Freddy",
+    "lastName": "Joans",
+    "image": "./images/img_avatar.png",
+    "transactions": [
+      {
+        "date": "01/01/2022",
+        "purchase": 120
+      },
+      {
+        "date": "01/03/2022",
+        "purchase": 220
+      },
+      {
+        "date": "01/15/2022",
+        "purchase": 0
+      }
+    ]
+   
+  },
+  {
+    "id": "004",
+    "firstName": "Alice",
+    "lastName": "Marie",
+    "image": "./images/img_avatar2.png",
+    "transactions": [
+      {
+        "date": "01/01/2022",
+        "purchase": 130
+      },
+      {
+        "date": "02/03/2022",
+        "purchase": 185
+      },
+      {
+        "date": "02/15/2022",
+        "purchase": 59
+      }
+    ]
+   
+  }
 ]
